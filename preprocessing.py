@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 #importing the data
-df = pd.read_csv('dior_jan_2025_us.csv')
+df = pd.read_csv('data.gitignore/dior_jan_2025_us.csv')
 
 #print(df.head())
 
