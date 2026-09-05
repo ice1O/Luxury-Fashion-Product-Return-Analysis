@@ -1,3 +1,3 @@
-# DSF2025-Dior-Product-Return-Analysis
+# Luxury-Fashion-Product-Return-Analysis
 
 This project builds a machine learning pipeline to predict product returns for Dior’s U.S. e-commerce operations using January 2025 order data. After extensive data cleaning—including removing leakage-prone fields, standardizing categories, engineering features, and converting all variables into modeling-ready format—we trained and compared eight classification models (baseline, Naive Bayes, Logistic Regression, Random Forest, Boosting, and a Neural Network). Because the dataset is heavily imbalanced, we focused on F1-score and used threshold tuning to significantly improve performance. We then evaluated results both globally and across eight product subcategories. Overall, we found that well-tuned simple models, especially Logistic Regression, performed as well as more complex ones and provided reliable insights for return prediction.
